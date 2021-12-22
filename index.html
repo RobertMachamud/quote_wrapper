@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Wrapper</title>
+</head>
+<body>
+    <div class="main_container">
+        <h2 class="headline">Wrap In Quotes And Brackets</h2>
+        <textarea name="" id="inp-field" cols="30" rows="10"></textarea>
+        <button onclick="pasteFromClipboard()" class="bttn">Paste</button>
+        <button class="bttn" onclick="wrapInQuotes()" id="go-btn">Start</button>
+        <button onclick="flatingTxt()" class="bttn">Flat</button>
+        <button class="bttn" onclick="clearInputField()" id="clear-btn" style="background: crimson">Delete</button>
+        <br><br>
+        <textarea name="" id="outp-field" cols="30" rows="10"></textarea>
+        <button onclick="copyToClipboard()" class="bttn">Copy</button>
+        <div id="copy-symb"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
